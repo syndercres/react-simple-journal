@@ -21,7 +21,7 @@ function JournalEntry(props: JournalEntryProps): JSX.Element {
         <li>Likes: {props.likes}</li>
       </ul>
       <p>
-        <small>Posted: March 3, 2003</small>
+        <small>Posted: {props.postDate.month} {props.postDate.day}, {props.postDate.year}</small>
       </p>
     </section>
   );
