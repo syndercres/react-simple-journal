@@ -21,7 +21,10 @@ function JournalEntry(props: JournalEntryProps): JSX.Element {
         <li>Likes: {props.likes}</li>
       </ul>
       <p>
-        <small>Posted: {props.postDate.month} {props.postDate.day}, {props.postDate.year}</small>
+        <small>
+          Posted: {props.postDate.month} {props.postDate.day},{" "}
+          {props.postDate.year}
+        </small>
       </p>
     </section>
   );
