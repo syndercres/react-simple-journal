@@ -6,6 +6,7 @@ function MainContent(): JSX.Element {
     <main>
       <FixedEntry />
       <FixedEntry />
+
       <JournalEntry
         title={"Discovering React components"}
         tags={["react", "components", "reusability"]}
@@ -25,6 +26,16 @@ function MainContent(): JSX.Element {
         views={10}
         likes={5}
         postDate={{ month: "March", day: 3, year: 2003 }}
+      />
+            <JournalEntry
+        title={"Writing Poetry"}
+        tags={["poetry, meta"]}
+        body={ 
+         "Being creative... I'd like to do more of it. I'll write some haikus!"
+        }
+        views={92}
+        likes={11}
+        postDate={{ month: "March", day: 2, year: 2003 }}
       />
       <section>
         <h2>Writing poetry</h2>
